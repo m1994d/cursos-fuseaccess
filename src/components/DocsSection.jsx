@@ -4,7 +4,7 @@ export default function DocsSection({ category }) {
       { title: 'Manual de Instalación CCTV', url: 'https://www.hikvision.com/content/dam/hikvision/es-la/brochures-esp/Gu%C3%ADa-del-Instalador-Hikvision.pdf' },
       { title: 'Guía de Configuración de Cámaras IP', url: 'https://gruponavarro.pe/blog/configurar-camaras-ip-hikvision/' }
     ],
-    automatizacion: [
+    aplicaciones: [
       { title: 'Fundamentos de ..', url: '/docs/fundamentos_auto.pdf' },
       { title: '..', url: '/docs/protocolos.pdf' }
     ],

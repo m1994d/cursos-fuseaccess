@@ -18,13 +18,13 @@ function CctvContent() {
   );
 }
 
-function AutomatizacionContent() {
+function AplicacionesContent() {
   return (
     <div>
       <h2>Contenido de Aplicaciones</h2>
-      <VideoSection category="automatizacion" />
-      <GallerySection category="automatizacion" />
-      <DocsSection category="automatizacion" />
+      <VideoSection category="aplicaciones" />
+      <GallerySection category="aplicaciones" />
+      <DocsSection category="aplicaciones" />
     </div>
   );
 }
@@ -56,8 +56,8 @@ function App() {
       content: <CctvContent />
     },
     {
-      title: 'Automatización',
-      content: <AutomatizacionContent />
+      title: 'Aplicaciones',
+      content: <AplicacionesContent />
     },
     {
       title: 'Control de Acceso',
