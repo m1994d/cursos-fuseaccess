@@ -2,12 +2,16 @@ export default function VideoSection({ category }) {
   const videos = {
     cctv: [
       {
-        title: 'Curso de Camaras de Seguridad CCTV y IP (analogica y digital) 1/3 ',
+        title: 'Curso CCTV Básico (analogica y IP) 1/3 ',
         url: 'https://www.youtube.com/embed/CeK1ax_g3Rw'
       },
       {
-        title: 'Configuración de Cámaras',
-        url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+        title: '2/3',
+        url: 'https://www.youtube.com/embed/ZLvOOHGhxiY'
+      },
+      {
+        title: '3/3',
+        url: 'https://www.youtube.com/embed/bMN50W6ov8s'
       }
     ],
     automatizacion: [
