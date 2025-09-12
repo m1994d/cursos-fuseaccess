@@ -3,7 +3,7 @@ export default function VideoSection({ category }) {
     cctv: [
       {
         title: 'Curso de Camaras de Seguridad CCTV y IP (analogica y digital) 1/3 ',
-        url: 'https://www.youtube.com/watch?v=CeK1ax_g3Rw'
+        url: 'https://www.youtube.com/embed/CeK1ax_g3Rw'
       },
       {
         title: 'Configuración de Cámaras',
