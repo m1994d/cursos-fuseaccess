@@ -3,7 +3,7 @@ export default function GallerySection({ category }) {
     cctv: [
       '/imagenes/cctv1.jpg',
       '/imagenes/cctv2.png',
-      '/imagenes/cctv3.jpg'
+      '/imagenes/cctv3.png'
     ],
     automatizacion: [
       '/imagenes/auto1.jpg',
