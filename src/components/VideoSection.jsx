@@ -17,15 +17,15 @@ export default function VideoSection({ category }) {
     aplicaciones: [
       {
         title: 'Aplicación FuseAccess',
-        url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+        url: 'https://www.youtube.com/embed/QvEoLIN1DA4'
       },
       {
         title: 'Apicación HikConnect',
-        url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+        url: 'https://www.youtube.com/embed/aJou53c80ws'
       },
       {
-        title: 'Aplicación HikCetral',
-        url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+        title: 'Aplicación HikPartner Pro',
+        url: 'https://www.youtube.com/embed/mcaLvBqrtxY'
       }
     ],
     acceso: [
