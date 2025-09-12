@@ -56,12 +56,12 @@ function App() {
       content: <CctvContent />
     },
     {
-      title: 'Aplicaciones',
-      content: <AplicacionesContent />
-    },
-    {
       title: 'Control de Acceso',
       content: <ControlAccesoContent />
+    },
+    {
+      title: 'Aplicaciones',
+      content: <AplicacionesContent />
     },
     {
       title: 'Manuales y otros',
