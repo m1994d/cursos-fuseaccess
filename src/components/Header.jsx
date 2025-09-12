@@ -6,7 +6,7 @@ export default function Header() {
       <div className="header-content">
         <div className="logo-container">
           <img 
-            src="logo.png" 
+            src="logo-blanco.webp" 
             alt="Logo del Curso" 
             className="header-logo"
           />
