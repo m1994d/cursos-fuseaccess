@@ -12,7 +12,7 @@ export default function Header() {
           />
         </div>
         <div className="header-text">
-          <h1>Curso de CCTV, Automatización y Control de Accesos</h1>
+          <h1>Curso de CCTV y Control de Accesos</h1>
           <p>Aprende con videos, imágenes y documentación</p>
         </div>
       </div>
