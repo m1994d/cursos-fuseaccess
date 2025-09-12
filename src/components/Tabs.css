@@ -23,13 +23,13 @@
 }
 
 .tab-button:hover {
-  color: #667eea;
+  color: #1B81FF;
   background-color: #f8f9fa;
 }
 
 .tab-button.active {
-  color: #667eea;
-  border-bottom: 3px solid #667eea;
+  color: #1B81FF;
+  border-bottom: 3px solid #1B81FF;
   background-color: #f8f9fa;
 }
 
@@ -51,7 +51,7 @@
   }
   
   .tab-button.active {
-    border-bottom: 1px solid #667eea;
-    border-right: 3px solid #667eea;
+    border-bottom: 1px solid #1B81FF;
+    border-right: 3px solid #1B81FF;
   }
 }
