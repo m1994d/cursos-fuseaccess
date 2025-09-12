@@ -14,13 +14,17 @@ export default function VideoSection({ category }) {
         url: 'https://www.youtube.com/embed/bMN50W6ov8s'
       }
     ],
-    automatizacion: [
+    aplicaciones: [
       {
-        title: 'Conceptos Básicos de Automatización',
+        title: 'Aplicación FuseAccess',
         url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
       },
       {
-        title: 'Sistemas de Control Industrial',
+        title: 'Apicación HikConnect',
+        url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+      },
+      {
+        title: 'Aplicación HikCetral',
         url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
       }
     ],

@@ -6,7 +6,7 @@ export default function GallerySection({ category }) {
       '/imagenes/cctv3.png',
       '/imagenes/cctv4.jpg'
     ],
-    automatizacion: [
+    aplicaciones: [
       '/imagenes/auto1.jpg',
       '/imagenes/auto2.jpg',
       '/imagenes/auto3.jpg'
