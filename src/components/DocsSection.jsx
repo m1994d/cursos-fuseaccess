@@ -2,7 +2,7 @@ export default function DocsSection({ category }) {
   const docs = {
     cctv: [
       { title: 'Manual de Instalación CCTV', url: 'https://www.hikvision.com/content/dam/hikvision/es-la/brochures-esp/Gu%C3%ADa-del-Instalador-Hikvision.pdf' },
-      { title: 'Guía de Configuración de Cámaras IP', url: 'https://www.hikvisioneurope.com/eu/portal/portal/Technical%20Materials/00%20%20Network%20Camera/02%20%20Product%20User%20Manuals%20%28multi-language%29/99-OldUserManuals/04-Spanish/UD04470B_Baseline_User%20Manual%20of%20Network%20Camera_V5.4.5_20170123_ES.pdf' }
+      { title: 'Guía de Configuración de Cámaras IP', url: 'https://gruponavarro.pe/blog/configurar-camaras-ip-hikvision/' }
     ],
     automatizacion: [
       { title: 'Fundamentos de Automatización', url: '/docs/fundamentos_auto.pdf' },
