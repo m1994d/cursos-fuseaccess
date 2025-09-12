@@ -6,11 +6,11 @@ export default function VideoSection({ category }) {
         url: 'https://www.youtube.com/embed/CeK1ax_g3Rw'
       },
       {
-        title: '2/3',
+        title: 'Curso CCTV Básico (analogica y IP) 2/3',
         url: 'https://www.youtube.com/embed/ZLvOOHGhxiY'
       },
       {
-        title: '3/3',
+        title: 'Curso CCTV Básico (analogica y IP) 3/3',
         url: 'https://www.youtube.com/embed/bMN50W6ov8s'
       }
     ],
