@@ -64,6 +64,10 @@ function App() {
     {
       title: 'Control de Acceso',
       content: <ControlAccesoContent />
+    },
+    {
+      title: 'Manuales Fuseaccess',
+      content: <ManualesContent />
     }
   ];
 

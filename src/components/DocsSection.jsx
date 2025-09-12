@@ -11,10 +11,6 @@ export default function DocsSection({ category }) {
     acceso: [
       { title: 'Sistemas de Control de Acceso', url: '/docs/control_acceso.pdf' },
       { title: 'Seguridad Biométrica', url: '/docs/biometria.pdf' }
-    ],
-    manuales: [
-      { title: 'Manual de Usuario', url: '/https://drive.google.com/drive/folders/1DIQOUQ_P1Ul5YITWdvSwdv9MqXxDK9VA?usp=drive_link' },
-      { title: 'Preguntas Frecuentes', url: '/docs/faq.pdf' }
     ]
   };
 
