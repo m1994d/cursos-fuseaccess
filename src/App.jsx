@@ -43,9 +43,7 @@ function ControlAccesoContent() {
 function ManualesContent() {
   return (
     <div>
-      <h2>Contenido de Control de Acceso</h2>
-      <VideoSection category="manuales" />
-      <GallerySection category="manuales" />
+      <h2>Contenido</h2>
       <DocsSection category="manuales" />
     </div>
   );
@@ -66,7 +64,7 @@ function App() {
       content: <ControlAccesoContent />
     },
     {
-      title: 'Manuales Fuseaccess',
+      title: 'Manuales y otros',
       content: <ManualesContent />
     }
   ];
