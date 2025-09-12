@@ -43,7 +43,7 @@ function ControlAccesoContent() {
 function ManualesContent() {
   return (
     <div>
-      <h2>Contenido</h2>
+      <h2>Contenido manuales y otros</h2>
       <DocsSection category="manuales" />
     </div>
   );
