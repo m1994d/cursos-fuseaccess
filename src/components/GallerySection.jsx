@@ -2,7 +2,7 @@ export default function GallerySection({ category }) {
   const images = {
     cctv: [
       '/imagenes/cctv1.jpg',
-      '/imagenes/cctv2.jpg',
+      '/imagenes/cctv2.png',
       '/imagenes/cctv3.jpg'
     ],
     automatizacion: [
