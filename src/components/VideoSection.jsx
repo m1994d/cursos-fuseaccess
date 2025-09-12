@@ -14,7 +14,7 @@ export default function VideoSection({ category }) {
         url: 'https://www.youtube.com/embed/bMN50W6ov8s'
       }
     ],
-    aplicaciones: [
+    automatizacion: [
       {
         title: 'Aplicación FuseAccess',
         url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
