@@ -1,7 +1,7 @@
 export default function DocsSection({ category }) {
   const docs = {
     cctv: [
-      { title: 'Manual de Instalación CCTV', url: '/docs/manual_cctv.pdf' },
+      { title: 'Manual de Instalación CCTV', url: 'https://www.hikvision.com/content/dam/hikvision/es-la/brochures-esp/Gu%C3%ADa-del-Instalador-Hikvision.pdf' },
       { title: 'Guía de Configuración de Cámaras', url: '/docs/guia_camaras.pdf' }
     ],
     automatizacion: [
