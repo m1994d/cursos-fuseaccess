@@ -40,6 +40,17 @@ function ControlAccesoContent() {
   );
 }
 
+function ManualesContent() {
+  return (
+    <div>
+      <h2>Contenido de Control de Acceso</h2>
+      <VideoSection category="manuales" />
+      <GallerySection category="manuales" />
+      <DocsSection category="manuales" />
+    </div>
+  );
+}
+
 function App() {
   const tabs = [
     {
