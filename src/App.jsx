@@ -56,7 +56,7 @@ function App() {
       content: <CctvContent />
     },
     {
-      title: 'Automatización',
+      title: 'Aplicaciones',
       content: <aplicacionesContent />
     },
     {
