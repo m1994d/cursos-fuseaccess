@@ -12,9 +12,9 @@ export default function GallerySection({ category }) {
       '/imagenes/auto3.jpg'
     ],
     acceso: [
-      '/imagenes/acceso1.jpg',
-      '/imagenes/acceso2.jpg',
-      '/imagenes/acceso3.jpg'
+      '/imagenes/acceso1.png',
+      '/imagenes/acceso2.png',
+      '/imagenes/acceso3.png'
     ]
   };
 
