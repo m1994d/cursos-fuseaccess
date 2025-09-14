@@ -36,6 +36,10 @@ export default function VideoSection({ category }) {
       {
         title: 'Biometría y Seguridad',
         url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+      },
+      {
+        title: 'Nueva terminal facial MinMoe K1T344 de HikVision',
+        url: 'https://www.youtube.com/embed/bCoLZXrPB7Q'
       }
     ]
   };
