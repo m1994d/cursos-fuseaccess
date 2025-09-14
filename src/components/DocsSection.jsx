@@ -15,6 +15,7 @@ export default function DocsSection({ category }) {
     ],
     manuales: [
       { title: 'Manuales', url: 'https://drive.google.com/drive/folders/1DIQOUQ_P1Ul5YITWdvSwdv9MqXxDK9VA?usp=drive_link' },
+      { title: 'Canal para entrenamiento SEGO', url: 'https://www.youtube.com/c/SEGOSeguridad%C3%93ptima/videos'}
     ]
   };
 
