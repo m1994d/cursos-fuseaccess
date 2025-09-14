@@ -7,9 +7,9 @@ export default function GallerySection({ category }) {
       '/imagenes/cctv4.jpg'
     ],
     aplicaciones: [
-      '/imagenes/auto1.jpg',
-      '/imagenes/auto2.jpg',
-      '/imagenes/auto3.jpg'
+      '/imagenes/acceso1.png',
+      '/imagenes/app2.jpg',
+      '/imagenes/app3.png'
     ],
     acceso: [
       '/imagenes/acceso1.png',
