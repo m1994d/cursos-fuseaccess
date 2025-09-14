@@ -30,12 +30,20 @@ export default function VideoSection({ category }) {
     ],
     acceso: [
       {
-        title: 'Sistemas de Control de Acceso',
-        url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+        title: 'Control de Acceso y Asistencia con Reconocimiento Facial Hikvision',
+        url: 'https://www.youtube.com/embed/UkvivvTlzDs'
       },
       {
         title: 'Biometría y Seguridad',
         url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+      },
+      {
+        title: 'kit de alarma de intrusión inalámbrica AX HOME - Hikvision',
+        url: 'https://www.youtube.com/embed/gycAAjGEiwY'
+      },
+      {
+        title: 'Como Configurar Alarma HIkvision AXPRO',
+        url: 'https://www.youtube.com/embed/L2Z76_sDJxM'
       },
       {
         title: 'Nueva terminal facial MinMoe K1T344 de HikVision',
