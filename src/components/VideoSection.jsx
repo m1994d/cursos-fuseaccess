@@ -33,7 +33,7 @@ export default function VideoSection({ category }) {
     ],
     acceso: [
       {
-        title: 'Control de Acceso y Asistencia con Reconocimiento Facial Hikvision',
+        title: 'Control de Acceso y Asistencia Hikvision',
         url: 'https://www.youtube.com/embed/UkvivvTlzDs'
       },
       {
@@ -41,7 +41,7 @@ export default function VideoSection({ category }) {
         url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
       },
       {
-        title: 'kit de alarma de intrusión inalámbrica AX HOME - Hikvision',
+        title: 'Alarma de intrusión inalámbrica AX HOME',
         url: 'https://www.youtube.com/embed/gycAAjGEiwY'
       },
       {
