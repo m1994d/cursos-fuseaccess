@@ -1,6 +1,3 @@
-import './VideoSection.css';
-
-
 export default function VideoSection({ category }) {
   const videos = {
     cctv: [
