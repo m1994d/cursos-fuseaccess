@@ -10,6 +10,7 @@ export default function DocsSection({ category }) {
     ],
     acceso: [
       { title: 'Sistemas de Control de Acceso', url: '/docs/control_acceso.pdf' },
+      { title: 'Terminales Faciales HikVision', url: 'https://www.hikvision.com/es-co/products/Access-Control-Products/Face-Recognition-Terminals/?category=Control+de+Acceso+3.0+Hikvision+con+IA+%7C+Seguridad+Facial+Sin+Contacto&subCategory=Terminales+de+reconocimiento+facial&checkedSubSeries=null' },
       { title: 'Seguridad Biométrica', url: '/docs/biometria.pdf' }
     ],
     manuales: [
