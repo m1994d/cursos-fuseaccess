@@ -53,6 +53,8 @@ function FundamentosContent() {
   return (
     <div>
       <h2>Contenido material de apoyo</h2>
+      <VideoSection category="fundamentos" />
+      <GallerySection category="fundamentos" />      
       <DocsSection category="fundamentos" />
     </div>
   );
