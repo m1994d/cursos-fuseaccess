@@ -53,7 +53,7 @@ function FundamentosContent() {
   return (
     <div>
       <h2>Contenido material de apoyo</h2>
-      <DocsSection category="material" />
+      <DocsSection category="fundamentos" />
     </div>
   );
 }

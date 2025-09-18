@@ -49,6 +49,12 @@ export default function VideoSection({ category }) {
         title: 'Nueva terminal facial MinMoe K1T344 de HikVision',
         url: 'https://www.youtube.com/embed/bCoLZXrPB7Q'
       }
+    ],
+    fundamentos: [
+      {
+        title: 'Fundamentos electricidad',
+        url: 'https://www.youtube.com/embed/PL5u_oyI4fV4TQccaqP9IVoyPZFzDQ-0zw'
+      }
     ]
   };
 

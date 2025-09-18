@@ -15,6 +15,9 @@ export default function GallerySection({ category }) {
       '/imagenes/acceso1.png',
       '/imagenes/acceso2.png',
       '/imagenes/acceso3.png'
+    ],
+    fundamentos: [
+      '/imagenes/fundamentos1.png',
     ]
   };
 
