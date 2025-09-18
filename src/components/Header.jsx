@@ -12,8 +12,12 @@ export default function Header() {
           />
         </div>
         <div className="header-text">
-          <h1>Curso de CCTV y Control de Accesos</h1>
-          <p>Aprende con videos, imágenes y documentación</p>
+          <h1>Curso de inducción a instaladores</h1>
+          <p>
+            <em>
+              "Juntarse es el comienzo. Mantenerse juntos es un progreso. Trabajar juntos es el éxito" : Henry Ford.
+            </em>
+          </p>
         </div>
       </div>
     </header>
