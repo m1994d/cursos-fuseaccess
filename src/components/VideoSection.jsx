@@ -54,6 +54,9 @@ export default function VideoSection({ category }) {
       {
         title: 'Fundamentos electricidad',
         url: 'https://www.youtube.com/embed/PL5u_oyI4fV4TQccaqP9IVoyPZFzDQ-0zw'
+      },
+      { title: 'Curso tactico de tuberia eléctrica', 
+        url: 'https://www.youtube.com/c/PL5u_oyI4fV4TQccaqP9IVoyPZFzDQ-0zw'
       }
     ]
   };
