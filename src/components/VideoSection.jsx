@@ -55,8 +55,8 @@ export default function VideoSection({ category }) {
         title: 'Curso tactico de tubería EMT',
         url: 'https://www.youtube.com/embed/8bjuNlIhZXs&list=PLb7PdgLBShiqyp1lEJ2IPYukFnATttAG0'
       },
-      { title: 'Curso tactico de tuberia eléctrica', 
-        url: 'https://www.youtube.com/c/PL5u_oyI4fV4TQccaqP9IVoyPZFzDQ-0zw'
+      { title: ' Cómo hacer una instalación ELÉCTRICA segura', 
+        url: 'https://www.youtube.com/embed/gHBO3zYcRZI'
       }
     ]
   };
