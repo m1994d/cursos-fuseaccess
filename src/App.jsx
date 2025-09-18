@@ -55,6 +55,7 @@ function ManualesContent() {
   return (
     <div>
       <h2>Contenido manuales y otros</h2>
+      <VideoSection category="manuales" />
       <DocsSection category="manuales" />
     </div>
   );

@@ -50,6 +50,12 @@ export default function VideoSection({ category }) {
         url: 'https://www.youtube.com/embed/bCoLZXrPB7Q'
       }
     ],
+    manuales: [
+      {
+        title: 'Cómo estudiar y tomar apuntes',
+        url: 'https://www.youtube.com/embed/3xQr-HWyA2Oo'
+      },
+    ],
     fundamentos: [
       {
         title: 'Curso tactico de tubería EMT',
