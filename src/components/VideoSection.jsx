@@ -53,7 +53,7 @@ export default function VideoSection({ category }) {
     manuales: [
       {
         title: 'Cómo estudiar y tomar apuntes',
-        url: 'https://www.youtube.com/embed/3xQr-HWyA2Oo'
+        url: 'https://www.youtube.com/embed/xQr-HWyA2Oo'
       },
     ],
     fundamentos: [
