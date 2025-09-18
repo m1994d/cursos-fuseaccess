@@ -40,15 +40,6 @@ function ControlAccesoContent() {
   );
 }
 
-function ManualesContent() {
-  return (
-    <div>
-      <h2>Contenido manuales y otros</h2>
-      <DocsSection category="manuales" />
-    </div>
-  );
-}
-
 function FundamentosContent() {
   return (
     <div>
@@ -56,6 +47,15 @@ function FundamentosContent() {
       <VideoSection category="fundamentos" />
       <GallerySection category="fundamentos" />      
       <DocsSection category="fundamentos" />
+    </div>
+  );
+}
+
+function ManualesContent() {
+  return (
+    <div>
+      <h2>Contenido manuales y otros</h2>
+      <DocsSection category="manuales" />
     </div>
   );
 }
@@ -75,13 +75,13 @@ function App() {
       content: <AplicacionesContent />
     },
     {
+      title: 'Fundamentos básicos',
+      content: <FundamentosContent />
+    },
+    {
       title: 'Manuales',
       content: <ManualesContent />
     },
-    {
-      title: 'Fundamentos básicos',
-      content: <FundamentosContent />
-    }
   ];
 
   return (
