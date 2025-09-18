@@ -49,6 +49,15 @@ function ManualesContent() {
   );
 }
 
+function FundamentosContent() {
+  return (
+    <div>
+      <h2>Contenido material de apoyo</h2>
+      <DocsSection category="material" />
+    </div>
+  );
+}
+
 function App() {
   const tabs = [
     {
@@ -64,8 +73,12 @@ function App() {
       content: <AplicacionesContent />
     },
     {
-      title: 'Manuales y otros',
+      title: 'Manuales',
       content: <ManualesContent />
+    },
+    {
+      title: 'Fundamentos basicos',
+      content: <FundamentosContent />
     }
   ];
 

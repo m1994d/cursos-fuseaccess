@@ -16,6 +16,10 @@ export default function DocsSection({ category }) {
     manuales: [
       { title: 'Manuales', url: 'https://drive.google.com/drive/folders/1DIQOUQ_P1Ul5YITWdvSwdv9MqXxDK9VA?usp=drive_link' },
       { title: 'Canal para entrenamiento SEGO', url: 'https://www.youtube.com/c/SEGOSeguridad%C3%93ptima/videos'}
+    ],
+    material: [
+      { title: 'Material de apoyo HikCentral', url: 'https://docs.google.com/document/d/16ApJcIKwAWvpwgXG8sq2nRDTup26yXx3q0ztq4r8LjA/edit?tab=t.0' },
+      { title: '---', url: 'https://www.youtube.com/c/SEGOSeguridad%C3%93ptima/videos'}
     ]
   };
 
