@@ -35,7 +35,7 @@ export default function VideoSection({ category }) {
       },
       {
         title: 'Biometría y Seguridad',
-        url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+        url: 'https://www.youtube.com/embed/_Qvd4f1Xt30'
       },
       {
         title: 'Alarma de intrusión inalámbrica AX HOME',
@@ -57,6 +57,9 @@ export default function VideoSection({ category }) {
       },
       { title: ' Cómo hacer una instalación ELÉCTRICA segura', 
         url: 'https://www.youtube.com/embed/gHBO3zYcRZI'
+      },
+      { title: 'Instalación eléctrica paso a paso',
+        url: 'https://www.youtube.com/embed/ELqsMCCNlvA'
       }
     ]
   };
