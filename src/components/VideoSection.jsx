@@ -52,7 +52,7 @@ export default function VideoSection({ category }) {
     ],
     fundamentos: [
       {
-        title: 'Fundamentos electricidad',
+        title: 'Curso tactico de tubería EMT',
         url: 'https://www.youtube.com/embed/8bjuNlIhZXs&list=PLb7PdgLBShiqyp1lEJ2IPYukFnATttAG0'
       },
       { title: 'Curso tactico de tuberia eléctrica', 
