@@ -77,7 +77,7 @@ function App() {
       content: <ManualesContent />
     },
     {
-      title: 'Fundamentos basicos',
+      title: 'Fundamentos básicos',
       content: <FundamentosContent />
     }
   ];
