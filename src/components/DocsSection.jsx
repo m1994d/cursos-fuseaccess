@@ -22,7 +22,7 @@ export default function DocsSection({ category }) {
       { title: 'Curso tactico de tuberia eléctrica', url: 'https://www.youtube.com/c/SEGOSeguridad%C3%93ptima/videos'}
     ]
   };
-
+ 
   const categoryDocs = docs[category] || [];
 
   return (
