@@ -19,7 +19,7 @@ export default function DocsSection({ category }) {
     ],
     fundamentos: [
       { title: 'Fundamentos', url: 'https://docs.google.com/document/d/16ApJcIKwAWvpwgXG8sq2nRDTup26yXx3q0ztq4r8LjA/edit?tab=t.0' },
-      { title: 'Curso tactico de tuberia eléctrica', url: 'https://www.youtube.com/c/SEGOSeguridad%C3%93ptima/videos'}
+      { title: 'Curso tactico de tuberia eléctrica', url: 'https://www.youtube.com/watch?v=8bjuNlIhZXs&list=PLb7PdgLBShiqyp1lEJ2IPYukFnATttAG0'}
     ]
   };
  
