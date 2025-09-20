@@ -93,7 +93,7 @@ function App() {
       content: <ManualesContent />
     },
     {
-      title: 'Simuladores'
+      title: 'Simuladores',
       content: <SimuladoresContent />,
     }
   ];
