@@ -21,6 +21,9 @@ export default function DocsSection({ category }) {
       { title: 'Fundamentos', url: 'https://docs.google.com/document/d/16ApJcIKwAWvpwgXG8sq2nRDTup26yXx3q0ztq4r8LjA/edit?tab=t.0' },
       { title: 'Curso tactico de tuberia eléctrica', url: 'https://www.youtube.com/watch?v=8bjuNlIhZXs&list=PLb7PdgLBShiqyp1lEJ2IPYukFnATttAG0'},
       { title: 'Normativas', url: 'https://www.youtube.com/@RettvNoticias' }
+    ],
+    simuladores: [ 
+      { title: 'Ley de Ohm', url: 'https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_all.html?locale=es' } 
     ]
   };
  
