@@ -22,6 +22,9 @@ export default function GallerySection({ category }) {
       '/imagenes/codigo-colores-retie.png',
       '/imagenes/norma.png',
       '/imagenes/normarj45.png'
+    ],
+    simuladores: [
+      '/imagenes/simuladores1.png',
     ]
   };
 
