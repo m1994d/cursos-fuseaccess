@@ -64,6 +64,10 @@ function ManualesContent() {
 function App() {
   const tabs = [
     {
+      title: 'Fundamentos básicos',
+      content: <FundamentosContent />
+    },
+    {
       title: 'CCTV',
       content: <CctvContent />
     },
@@ -74,10 +78,6 @@ function App() {
     {
       title: 'Aplicaciones',
       content: <AplicacionesContent />
-    },
-    {
-      title: 'Fundamentos básicos',
-      content: <FundamentosContent />
     },
     {
       title: 'Manuales',
