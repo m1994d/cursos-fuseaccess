@@ -65,7 +65,8 @@ function SimuladoresContent() {
   return (
     <div>
       <h2>Simuladores</h2>
-      <p>Próximamente...</p>
+      <GallerySection category="simuladores" />
+      <DocsSection category="simuladores" />
     </div>
   );
 }
