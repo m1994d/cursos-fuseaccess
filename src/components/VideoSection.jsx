@@ -27,7 +27,9 @@ export default function VideoSection({ category }) {
         { title: 'Nueva terminal facial MinMoe K1T344 de HikVision', url: 'https://www.youtube.com/embed/bCoLZXrPB7Q' }
       ],
       dispositivos: [
-        { title: 'Dispositivos de Control de Acceso', url: 'https://www.youtube.com/embed/1kLZk2bXG7A' }
+        { title: 'Como instalar un Electroiman en una puerta (con soporte ZL)', url: 'https://www.youtube.com/embed/hELZYSxK8ow' },
+        { title: 'Cómo instalar una cerradura eléctrica en una puerta con marco metálico', url: 'https://www.youtube.com/embed/3pX4jv2b7Hk' },
+        { title: 'Cómo instalar una cerradura eléctrica en una puerta', url: 'https://www.youtube.com/embed/qi5JJ_Qgzxw' }
       ]
     },
     manuales: {
