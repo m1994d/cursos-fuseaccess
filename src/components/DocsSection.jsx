@@ -9,9 +9,9 @@ export default function DocsSection({ category }) {
       { title: 'FuseAccess', url: 'https://fuseaccess.com/quienes-somos/' }      
     ],
     acceso: [
-      { title: 'Sistemas de Control de Acceso', url: '/docs/control_acceso.pdf' },
+      //{ title: 'Sistemas de Control de Acceso', url: '' },
       { title: 'Terminales Faciales HikVision', url: 'https://www.hikvision.com/es-co/products/Access-Control-Products/Face-Recognition-Terminals/?category=Control+de+Acceso+3.0+Hikvision+con+IA+%7C+Seguridad+Facial+Sin+Contacto&subCategory=Terminales+de+reconocimiento+facial&checkedSubSeries=null' },
-      { title: 'Seguridad Biométrica', url: '/docs/biometria.pdf' }
+      //{ title: 'Seguridad Biométrica', url: '' }
     ],
     manuales: [
       { title: 'Manuales', url: 'https://drive.google.com/drive/folders/1DIQOUQ_P1Ul5YITWdvSwdv9MqXxDK9VA?usp=drive_link' },
