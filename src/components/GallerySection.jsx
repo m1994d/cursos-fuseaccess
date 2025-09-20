@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 export default function GallerySection({ category }) {
   const images = {
     cctv: [
@@ -24,6 +26,14 @@ export default function GallerySection({ category }) {
   };
 
   const categoryImages = images[category] || [];
+  const [selectedImg, setSelectedImg] = useState(null);
+
+  // Cierra la imagen si se hace click fuera de ella
+  const handleOverlayClick = (e) => {
+    if (e.target.className === 'modal-overlay') {
+      setSelectedImg(null);
+    }
+  };
 
   return (
     <section className="gallery-section">
@@ -34,10 +44,53 @@ export default function GallerySection({ category }) {
             <img
               src={img}
               alt={`${category} imagen ${i + 1}`}
+              onClick={() => setSelectedImg(img)}
+              style={{ cursor: 'pointer' }}
             />
           </div>
         ))}
       </div>
+      {selectedImg && (
+        <div className="modal-overlay" onClick={handleOverlayClick} style={{
+          position: 'fixed',
+          top: 0, left: 0, right: 0, bottom: 0,
+          background: 'rgba(0,0,0,0.8)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          zIndex: 1000
+        }}>
+          <div style={{ position: 'relative' }}>
+            <button
+              onClick={() => setSelectedImg(null)}
+              style={{
+                position: 'absolute',
+                top: '-30px',
+                right: '-10px',
+                background: '#fff',
+                border: 'none',
+                borderRadius: '50%',
+                width: '32px',
+                height: '32px',
+                fontSize: '1.5rem',
+                cursor: 'pointer',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.2)'
+              }}
+              aria-label="Cerrar"
+            >×</button>
+            <img
+              src={selectedImg}
+              alt="Imagen ampliada"
+              style={{
+                maxWidth: '90vw',
+                maxHeight: '80vh',
+                borderRadius: '10px',
+                boxShadow: '0 4px 32px rgba(0,0,0,0.5)'
+              }}
+            />
+          </div>
+        </div>
+      )}
     </section>
   );
 }
