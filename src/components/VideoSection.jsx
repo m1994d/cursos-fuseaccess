@@ -2,6 +2,7 @@ export default function VideoSection({ category }) {
   const videos = {
     cctv: {
       equipos: [
+        { title: 'Normativas para un sistema de CCTV', url: 'https://www.youtube.com/embed/r3U9z3zEVQg' },
         { title: 'Curso CCTV Básico (analogica y IP) 1/3 ', url: 'https://www.youtube.com/embed/CeK1ax_g3Rw' },
         { title: 'Curso CCTV Básico (analogica y IP) 2/3', url: 'https://www.youtube.com/embed/ZLvOOHGhxiY' },
         { title: 'Curso CCTV Básico (analogica y IP) 3/3', url: 'https://www.youtube.com/embed/bMN50W6ov8s' }
