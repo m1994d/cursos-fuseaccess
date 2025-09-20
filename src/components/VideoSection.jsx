@@ -25,6 +25,9 @@ export default function VideoSection({ category }) {
       ],
       facial: [
         { title: 'Nueva terminal facial MinMoe K1T344 de HikVision', url: 'https://www.youtube.com/embed/bCoLZXrPB7Q' }
+      ],
+      dispositivos: [
+        { title: 'Dispositivos de Control de Acceso', url: 'https://www.youtube.com/embed/1kLZk2bXG7A' }
       ]
     },
     manuales: {
@@ -39,9 +42,10 @@ export default function VideoSection({ category }) {
         { title: 'Instalación eléctrica paso a paso', url: 'https://www.youtube.com/embed/ELqsMCCNlvA' },
         { title: 'Norma RETIE y NTC 2050 ', url: 'https://www.youtube.com/embed/fcN9ayjzqbU' },
         { title: 'Cómo se hace una inspección a una instalación eléctrica', url: 'https://www.youtube.com/embed/dITYmqSjjKE' },
+      ],
+      datos: [
         { title: ' Curso Cableado Estructurado - Parte 1', url: 'https://www.youtube.com/embed/LYicldCPKrc' },
         { title: ' Curso Cableado Estructurado - Parte 2', url: 'https://www.youtube.com/embed/J_kaPlxQxEg' }
-
       ]
     }
   };
@@ -51,10 +55,12 @@ export default function VideoSection({ category }) {
     equipos: 'Equipos',
     apps: 'Aplicaciones',
     biometria: 'Biometría',
+    dispositivos: 'Dispositivos de Acceso',
     alarmas: 'Alarmas',
     facial: 'Reconocimiento Facial',
     apuntes: 'Apuntes',
-    electricidad: 'Electricidad y datos'
+    electricidad: 'Electricidad',
+    datos: 'Datos y Redes'
   };
 
   const categoryMaterias = videos[category] || {};
