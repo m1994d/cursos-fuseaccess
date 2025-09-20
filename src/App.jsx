@@ -61,6 +61,15 @@ function ManualesContent() {
   );
 }
 
+function SimuladoresContent() {
+  return (
+    <div>
+      <h2>Simuladores</h2>
+      <p>Próximamente...</p>
+    </div>
+  );
+}
+
 function App() {
   const tabs = [
     {
@@ -83,6 +92,10 @@ function App() {
       title: 'Manuales',
       content: <ManualesContent />
     },
+    {
+      title: 'Simuladores'
+      content: <SimuladoresContent />,
+    }
   ];
 
   return (
