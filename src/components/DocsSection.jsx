@@ -5,8 +5,8 @@ export default function DocsSection({ category }) {
       { title: 'Guía de Configuración de Cámaras IP', url: 'https://gruponavarro.pe/blog/configurar-camaras-ip-hikvision/' }
     ],
     aplicaciones: [
-      { title: 'Fundamentos de ..', url: '/docs/fundamentos_auto.pdf' },
-      { title: '..', url: '/docs/protocolos.pdf' }
+      { title: 'FusePong', url: 'https://fusepong.com/' },
+      { title: 'FuseAccess', url: 'https://fuseaccess.com/quienes-somos/' }      
     ],
     acceso: [
       { title: 'Sistemas de Control de Acceso', url: '/docs/control_acceso.pdf' },
