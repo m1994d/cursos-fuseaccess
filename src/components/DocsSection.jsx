@@ -23,7 +23,8 @@ export default function DocsSection({ category }) {
       { title: 'Normativas', url: 'https://www.youtube.com/@RettvNoticias' }
     ],
     simuladores: [ 
-      { title: 'Ley de Ohm', url: 'https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_all.html?locale=es' } 
+      { title: 'Ley de Ohm', url: 'https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_all.html?locale=es' },
+      { title: 'Circuitos Eléctricos', url: 'https://dcaclab.com/es/lab' }
     ]
   };
  
