@@ -36,7 +36,12 @@ export default function VideoSection({ category }) {
       electricidad: [
         { title: 'Curso tactico de tubería EMT', url: 'https://www.youtube.com/embed/8bjuNlIhZXs&list=PLb7PdgLBShiqyp1lEJ2IPYukFnATttAG0' },
         { title: 'Cómo hacer una instalación ELÉCTRICA segura', url: 'https://www.youtube.com/embed/gHBO3zYcRZI' },
-        { title: 'Instalación eléctrica paso a paso', url: 'https://www.youtube.com/embed/ELqsMCCNlvA' }
+        { title: 'Instalación eléctrica paso a paso', url: 'https://www.youtube.com/embed/ELqsMCCNlvA' },
+        { title: 'Norma RETIE y NTC 2050 ', url: 'https://www.youtube.com/embed/fcN9ayjzqbU' },
+        { title: 'Cómo se hace una inspección a una instalación eléctrica', url: 'https://www.youtube.com/embed/dITYmqSjjKE' },
+        { title: ' Curso Cableado Estructurado - Parte 1', url: 'https://www.youtube.com/embed/LYicldCPKrc' },
+        { title: ' Curso Cableado Estructurado - Parte 2', url: 'https://www.youtube.com/embed/J_kaPlxQxEg' }
+
       ]
     }
   };
@@ -49,7 +54,7 @@ export default function VideoSection({ category }) {
     alarmas: 'Alarmas',
     facial: 'Reconocimiento Facial',
     apuntes: 'Apuntes',
-    electricidad: 'Electricidad'
+    electricidad: 'Electricidad y datos'
   };
 
   const categoryMaterias = videos[category] || {};
