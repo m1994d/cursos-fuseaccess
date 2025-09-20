@@ -7,6 +7,17 @@ import Footer from './components/Footer';
 import './App.css';
 
 // Componentes específicos para cada categoría
+function FundamentosContent() {
+  return (
+    <div>
+      <h2>Contenido material de apoyo</h2>
+      <VideoSection category="fundamentos" />
+      <GallerySection category="fundamentos" />      
+      <DocsSection category="fundamentos" />
+    </div>
+  );
+}
+
 function CctvContent() {
   return (
     <div>
@@ -36,17 +47,6 @@ function ControlAccesoContent() {
       <VideoSection category="acceso" />
       <GallerySection category="acceso" />
       <DocsSection category="acceso" />
-    </div>
-  );
-}
-
-function FundamentosContent() {
-  return (
-    <div>
-      <h2>Contenido material de apoyo</h2>
-      <VideoSection category="fundamentos" />
-      <GallerySection category="fundamentos" />      
-      <DocsSection category="fundamentos" />
     </div>
   );
 }
