@@ -17,7 +17,9 @@ export default function GallerySection({ category }) {
       '/imagenes/acceso3.png'
     ],
     fundamentos: [
-      '/imagenes/fundamentos1.png',
+      '/imagenes/codigo-colores-retie.png',
+      '/imagenes/norma.png',
+      '/imagenes/normarj45.png'
     ]
   };
 
