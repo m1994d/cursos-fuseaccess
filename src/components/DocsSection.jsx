@@ -15,7 +15,8 @@ export default function DocsSection({ category }) {
     ],
     manuales: [
       { title: 'Manuales', url: 'https://drive.google.com/drive/folders/1DIQOUQ_P1Ul5YITWdvSwdv9MqXxDK9VA?usp=drive_link' },
-      { title: 'Canal para entrenamiento SEGO', url: 'https://www.youtube.com/c/SEGOSeguridad%C3%93ptima/videos'}
+      { title: 'Canal para entrenamiento SEGO', url: 'https://www.youtube.com/c/SEGOSeguridad%C3%93ptima/videos'},
+      { title: 'Capuchones Rj45 "Colores"', url: 'https://docs.google.com/document/d/1ecrixexibFNvDYI9InrOkY7ObXqq_n_vR3jJ5ukv48c/edit?tab=t.0' }
     ],
     fundamentos: [
       { title: 'Fundamentos', url: 'https://docs.google.com/document/d/16ApJcIKwAWvpwgXG8sq2nRDTup26yXx3q0ztq4r8LjA/edit?tab=t.0' },
