@@ -31,6 +31,12 @@ export default function VideoSection({ category }) {
       dispositivos: [
         { title: 'Como instalar un Electroiman en una puerta (con soporte ZL)', url: 'https://www.youtube.com/embed/hELZYSxK8ow' },
         { title: 'Cómo instalar una cerradura eléctrica en una puerta', url: 'https://www.youtube.com/embed/qi5JJ_Qgzxw' }
+      ],
+      uhf:
+      [
+        { title: ' ZKTeco | ANTENA UHF 10F PRO ', url: 'https://www.youtube.com/embed/H-i8Zehtp08' },
+        { title: ' Como conectar una UHF para acceso vehicular', url: 'https://www.youtube.com/embed/wCIWHzkbrXM' },
+        { title: 'Webinar UHF1-10F Pro', url: 'https://www.youtube.com/embed/po8jGwDPbUo' }
       ]
     },
     manuales: {
@@ -63,7 +69,8 @@ export default function VideoSection({ category }) {
     facial: 'Reconocimiento Facial',
     apuntes: 'Apuntes',
     electricidad: 'Electricidad',
-    datos: 'Datos y Redes'
+    datos: 'Datos y Redes',
+    uhf: 'UHF'
   };
 
   const categoryMaterias = videos[category] || {};
