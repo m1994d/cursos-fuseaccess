@@ -51,6 +51,8 @@ export default function VideoSection({ category }) {
         { title: 'Instalación eléctrica paso a paso', url: 'https://www.youtube.com/embed/ELqsMCCNlvA' },
         { title: 'Norma RETIE y NTC 2050 ', url: 'https://www.youtube.com/embed/fcN9ayjzqbU' },
         { title: 'Cómo se hace una inspección a una instalación eléctrica', url: 'https://www.youtube.com/embed/dITYmqSjjKE' },
+        { title: 'Conexión de una fotocelda para iluminación', url: 'https://www.youtube.com/embed/Rg8ZRfjWpDE' },
+        { title: 'Conexión de un sensor de movimiento', url: 'https://www.youtube.com/embed/wsOLqrd1Lhg' }
       ],
       datos: [
         { title: ' Curso Cableado Estructurado - Parte 1', url: 'https://www.youtube.com/embed/LYicldCPKrc' },
